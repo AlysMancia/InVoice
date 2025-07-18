@@ -5,7 +5,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import '../App.css';
 import React, { useEffect, useState } from 'react';
 
-// COLOR: #EBD6FB// letters #333333
+// COLOR: #EBD6FB// letters #333333 -- hover #d3a1f6
 function Navbar() {
   const [scrolled, setScrolled] = useState(false);
 
@@ -54,7 +54,7 @@ function Navbar() {
         </div>
 
         <div className='col-sm-1 login_con'>
-          <a><FontAwesomeIcon icon={faUser} className="fauser" />   LOGIN</a>
+          <a className='login_btn'><FontAwesomeIcon icon={faUser} className="fauser" />   LOGIN</a>
         </div>
       </div>
     </nav>

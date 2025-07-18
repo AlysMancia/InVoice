@@ -1,7 +1,8 @@
 .footer_div{
     background-color: #EBD6FB;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    
 }
 .logo_white{
     width: 150px;
@@ -20,15 +21,15 @@ h6{
 }
 .ctn_deets{
     display: flex;
-    margin-top: 2%;
+    margin-top: 1%;
 
     a{
         text-decoration: none;
         color: #333333;
         font-weight: 400;
         margin-top:0.3%;
-        margin-left: 2%;
-        width: 200px;
+        margin-left: 3.2%;
+        /* width: 200px; */
     }
 }
 .ctn_deets:hover{
@@ -38,7 +39,29 @@ h6{
     height: 26px;
 }
 .ctn_con{
-    margin-top: 0.5%;
+    margin-top: 1%;
     margin-bottom: 0.5%;
+    color: #333333;
 
+    h1{
+        font-weight:900;
+        
+    }
+    
+    p{
+        font-size: 12px;
+        margin-top:5px;
+        margin-left: 1%;
+    }
+}
+.email_con{
+    border: none;
+    border-radius: 20px;
+    padding: 8px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+    background-color: #f5e8fd;
+}
+.email_con:hover{
+    background-color: #d3a1f6;
+    color: white;
 }
