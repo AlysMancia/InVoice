@@ -1,16 +1,73 @@
-.navbar{
-  display: flex;
-  background-color: #EBD6FB;
-
+.sticky-navbar {
+  background-color: #EBD6FB !important;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+              rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  z-index: 1030;
 }
+.navbar {
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  backdrop-filter: blur(6px); /* optional for glassy look */
+}
+
+.navbar-transparent {
+  background-color: transparent !important;
+  box-shadow: none;
+}
+
+.navbar-colored {
+  background-color: #EBD6FB !important;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+              rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
 button .search_icon {
   fill: white; /* in case color doesn't work */
   color: white !important;
 }
 .navlink li{
-  color: #333333 !important;
+  color: #333333;
   font-weight: bolder;
 }
 body{
-   font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  color: #333333;
+
+}
+#navbarNav{
+  margin-left: 25%;
+}
+a,.fauser{
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: bolder;
+  cursor: pointer;
+
+}
+/* .fauser{
+  margin-right: 1%;
+} */
+.login_con{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+  padding: 10px;
+  border-radius: 6px;
+}
+.nav_btns {
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav_btns:hover {
+  background-color: white;
+  color: #5A1E80;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+.login_con:hover{
+  background-color: white;
+  color: #5A1E80;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }

@@ -1,0 +1,44 @@
+.footer_div{
+    background-color: #EBD6FB;
+    display: flex;
+    justify-content: space-between;
+}
+.logo_white{
+    width: 150px;
+    height: 150px;
+}
+.logow_con{
+    display: flex;  
+    margin-left: 2%;
+}
+h6{
+    font-weight: 500;
+    font-size: 20px;
+}
+.logo_line{
+    margin-top: 20%;
+}
+.ctn_deets{
+    display: flex;
+    margin-top: 2%;
+
+    a{
+        text-decoration: none;
+        color: #333333;
+        font-weight: 400;
+        margin-top:0.3%;
+        margin-left: 2%;
+        width: 200px;
+    }
+}
+.ctn_deets:hover{
+    text-decoration: underline;
+}
+.deets_icon{
+    height: 26px;
+}
+.ctn_con{
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+
+}
